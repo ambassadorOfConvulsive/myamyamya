@@ -3,7 +3,7 @@
 $data = [
     ["название игрушки", "цена", "магазин", "наличие"]
 ];
-м
+
 $json = file_get_contents("myamya.json");
 $jsonData = json_decode($json, true);
 
